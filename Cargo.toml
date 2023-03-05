@@ -6,7 +6,6 @@ edition = "2021"
 [dependencies]
 dioxus-ssr = "0.3.0"
 mitus = { path = "./crates/mitus" }
-jwalk = "0.8.1"
 
 [dependencies.dioxus]
 version = "0.3.2"

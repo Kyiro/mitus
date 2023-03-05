@@ -1,3 +1,9 @@
+import register from "preact-custom-element";
+
 function component() {
-    return (<div></div>);
+    return (
+        <p>This is an example for "Mitus"</p>
+    );
 }
+
+register(component, "x-component", []);
