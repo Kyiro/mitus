@@ -1,0 +1,11 @@
+[package]
+name = "mitus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mitus-macros = { path = "../mitus-macros" }
+
+[dependencies.deno_ast]
+version = "0.24.0"
+features = ["bundler", "codegen", "module_specifier", "proposal", "react", "sourcemap", "transforms", "typescript", "visit", "transpiling"]

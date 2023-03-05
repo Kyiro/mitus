@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsxdev",
+        "jsxImportSource": "preact"
+    },
+    "fmt": {
+        "options": {
+            "useTabs": false,
+            "indentWidth": 4,
+            "lineWidth": 80,
+            "singleQuote": false,
+            "semiColons": true
+        }
+    },
+    "importMap": "importMap.json",
+    "tasks": {
+        "esm:add": "deno run -A https://esm.sh/v110 add",
+        "esm:update": "deno run -A https://esm.sh/v110 update",
+        "esm:remove": "deno run -A https://esm.sh/v110 remove"
+    }
+}

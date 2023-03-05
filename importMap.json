@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "preact-custom-element": "https://esm.sh/v110/*preact-custom-element@4.2.1",
+    "preact": "https://esm.sh/v110/preact@10.13.0",
+    "preact/": "https://esm.sh/v110/preact@10.13.0/"
+  },
+  "scopes": {}
+}

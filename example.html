@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Mitus Example</title><script type="importmap">{
+        "imports": {
+          "preact-custom-element": "https://esm.sh/v110/*preact-custom-element@4.2.1",
+          "preact": "https://esm.sh/v110/preact@10.13.0",
+          "preact/": "https://esm.sh/v110/preact@10.13.0/"
+        },
+        "scopes": {}
+      }</script><script type="module">import { jsx as _jsx } from "preact/jsx-runtime";
+      import register from 'preact-custom-element';
+      function component() {
+          return _jsx("div", {
+              children: _jsx("p", {
+                  children: "halo"
+              })
+          });
+      }
+      register(component, "x-component", [], {
+          shadow: false
+      });
+      </script></head>
+      <body>
+        <x-component></x-component>
+      </body>
+</html>
